@@ -6,3 +6,5 @@ To run your own MQTT broker try http://mosquitto.org/
 You need https://nodejs.org/en/ running on your System. To install the needed packages run
 $ npm install
 on your shell.
+
+To controll the MQTT Demo open ./MQTT_minimal_web/index.html

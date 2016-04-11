@@ -2,90 +2,12 @@
 
 
 if (!window.Framer) {window._bridge('runtime.error', {message:'[framer.js] Framer library missing or corrupt. Select File → Update Framer.'})}
-window.__imported__ = window.__imported__ || {};
-window.__imported__["Buttons@1x/layers.json.js"] = [
-	{
-		"id": 9,
-		"name": "Laeuft",
-		"layerFrame": {
-			"x": 0,
-			"y": 0,
-			"width": 640,
-			"height": 640
-		},
-		"maskFrame": null,
-		"image": {
-			"path": "images/Laeuft.png",
-			"frame": {
-				"x": 19,
-				"y": 19,
-				"width": 602,
-				"height": 601
-			}
-		},
-		"imageType": "png",
-		"children": [
-			
-		],
-		"modification": "522054455"
-	},
-	{
-		"id": 11,
-		"name": "Start",
-		"layerFrame": {
-			"x": 0,
-			"y": 0,
-			"width": 640,
-			"height": 640
-		},
-		"maskFrame": null,
-		"image": {
-			"path": "images/Start.png",
-			"frame": {
-				"x": 19,
-				"y": 12,
-				"width": 602,
-				"height": 608
-			}
-		},
-		"imageType": "png",
-		"children": [
-			
-		],
-		"modification": "1301331647"
-	},
-	{
-		"id": 13,
-		"name": "Stop",
-		"layerFrame": {
-			"x": 0,
-			"y": 0,
-			"width": 640,
-			"height": 640
-		},
-		"maskFrame": null,
-		"image": {
-			"path": "images/Stop.png",
-			"frame": {
-				"x": 19,
-				"y": 19,
-				"width": 602,
-				"height": 601
-			}
-		},
-		"imageType": "png",
-		"children": [
-			
-		],
-		"modification": "1828327565"
-	}
-]
 if (typeof(DeviceComponent) !== "undefined") {DeviceComponent.Devices["iphone-6-silver"].deviceImageJP2 = false};
 window.Framer.Defaults.DeviceView = {"deviceScale":1,"selectedHand":"","deviceType":"fullscreen","contentScale":1,"orientation":0};
 
 window.Framer.Defaults.DeviceComponent = {"deviceScale":1,"selectedHand":"","deviceType":"fullscreen","contentScale":1,"orientation":0};
 
-window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"mqtt_poc.framer"};
+window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"mqtt.framer"};
 
 Framer.Device = new Framer.DeviceView();
 Framer.Device.setupContext();

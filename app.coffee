@@ -1,9 +1,4 @@
 ####### Framer Settings #######
-# deviceType can be either "phone" or "desktop" or "custom"
-#Framer.DeviceView.Devices["desktop"] =
-#	"deviceType": "screen"
-#	"screenWidth": 40
-#	"screenHeight": 40
 Framer.Device.deviceType = "fullscreen"
 
 ####### Setup MQTT #######
@@ -30,7 +25,7 @@ client.on 'message', (topic, message) ->
 			layer.states.switch("hide") 
 	message
 
-##################################
+####### Layers #######
 
 stateNames = ["red", "green", "blue"]
 LayerObject = []

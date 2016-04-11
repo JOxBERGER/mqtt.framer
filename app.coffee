@@ -71,7 +71,11 @@ for stateName, i in stateNames
 LayerObject[0].states.switch("show")
 LayerObject[0].bringToFront()
 
-
+info = new Layer
+	width: Screen.width
+	y: 100
+	height: 0
+	html: '<center><font size="5">MQTT controller Demo: http://explorative-environments.net/MQTT_for_FramerJS/</font></center>'
 
 
 

@@ -7,4 +7,4 @@ You need https://nodejs.org/en/ running on your System. To install the needed pa
 $ npm install
 on your shell.
 
-To controll the MQTT Demo open ./MQTT_minimal_web/index.html
+To controll the MQTT Demo open ./MQTT_for_FramerJS/index.html

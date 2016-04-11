@@ -1,0 +1,23 @@
+{
+  "name": "framerJS_mqtt_demo",
+  "description": "Proof of Concept to use FramerJS with MQTT to control Framer with MQTT Messages.",
+  "version": "1.0.0",
+  "contributors": [
+    "Jochen Leinberger (explorative-environments.net)"
+  ],
+  "keywords": [
+    "mqtt",
+    "publish/subscribe",
+    "publish",
+    "subscribe",
+    "FramerJS"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "mqtt": "^1.8.0"
+  }
+}

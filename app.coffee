@@ -1,5 +1,8 @@
 ####### Framer Settings #######
 Framer.Device.deviceType = "fullscreen"
+# Remove framer cursor
+document.body.style.cursor = "auto"
+
 
 ####### Setup MQTT #######
 mqtt = require("npm").mqtt
@@ -75,7 +78,8 @@ info = new Layer
 	width: Screen.width
 	y: 100
 	height: 0
-	html: '<center><font size="5">MQTT controller Demo: http://explorative-environments.net/MQTT_for_FramerJS/</font></center>'
+	html: '<center><font size="5">MQTT controller Demo <a href="http://explorative-environments.net/MQTT_for_FramerJS"" target="_blank">explorative-environments.net/MQTT_for_FramerJS</a></font></center>'
+info.ignoreEvents = false
 
 
 

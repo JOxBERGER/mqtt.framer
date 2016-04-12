@@ -7,4 +7,6 @@ You need https://nodejs.org/en/ running on your System. To install the needed pa
 $ npm install
 on your shell.
 
-To controll the MQTT Demo open ./MQTT_for_FramerJS/index.html
+A MQTT Demo Controller can be found here: ./MQTT_for_FramerJS/index.html
+
+Or try out everything here: http://share.framerjs.com/c98f8j0g62u1/
